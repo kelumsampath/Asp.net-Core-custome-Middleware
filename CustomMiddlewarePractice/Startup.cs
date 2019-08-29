@@ -42,7 +42,7 @@ namespace CustomMiddlewarePractice
             }
 
             app.UseHttpsRedirection();
-
+            //
             //method 1 - use direct middleware class in startup.cs
             //app.UseMiddleware<CustomeDebugConsoleMiddleware>();
 
